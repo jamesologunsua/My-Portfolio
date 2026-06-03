@@ -390,6 +390,19 @@ footer p {
   font-weight: 800;
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 0.8rem 0 0;
+}
+
+.project-link.secondary {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+}
+
 .timeline {
   border-top: 1px solid var(--line);
 }
